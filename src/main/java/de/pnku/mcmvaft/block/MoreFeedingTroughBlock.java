@@ -78,25 +78,13 @@ public class MoreFeedingTroughBlock extends FeedingTroughBlock {
         return InteractionResult.TRY_WITH_EMPTY_HAND;
     }
 
+    @Override
     public InteractionResult useWithoutItem(BlockState state, Level world, BlockPos pos, Player player, BlockHitResult hit) {
         if (world.isClientSide) {
             return InteractionResult.SUCCESS;
         } else {
             player.openMenu(state.getMenuProvider(world, pos));
             return InteractionResult.CONSUME;
-        }
-    }
-
-    @Override
-    public void onRemove(BlockState state, Level world, BlockPos pos, BlockState newState, boolean moved) {
-        if (state.getBlock() != newState.getBlock()) {
-            BlockEntity blockEntity = world.getBlockEntity(pos);
-            if (blockEntity instanceof MoreFeedingTroughBlockEntity) {
-                Containers.dropContents(world, pos, (MoreFeedingTroughBlockEntity) blockEntity);
-                world.updateNeighbourForOutputSignal(pos, this);
-            }
-
-            super.onRemove(state, world, pos, newState, moved);
         }
     }
 

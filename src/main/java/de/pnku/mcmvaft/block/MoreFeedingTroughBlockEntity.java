@@ -19,6 +19,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.storage.ValueInput;
+import net.minecraft.world.level.storage.ValueOutput;
 import net.minecraft.world.phys.AABB;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -105,17 +107,18 @@ public class MoreFeedingTroughBlockEntity extends BlockEntity implements MenuPro
     }
 
     @Override
-    protected void loadAdditional(CompoundTag nbt, HolderLookup.Provider registryLookup) {
-        super.loadAdditional(nbt, registryLookup);
-        ContainerHelper.loadAllItems(nbt, this.inventory, registryLookup);
-        this.storedExp = nbt.getInt(NBT_STORED_EXP);
+
+    protected void loadAdditional(ValueInput valueInput) {
+        super.loadAdditional(valueInput);
+        ContainerHelper.loadAllItems(valueInput, this.inventory);
+        this.storedExp = valueInput.getIntOr(NBT_STORED_EXP, 0);
     }
 
     @Override
-    protected void saveAdditional(CompoundTag nbt, HolderLookup.Provider registryLookup) {
-        super.saveAdditional(nbt, registryLookup);
-        ContainerHelper.saveAllItems(nbt, this.inventory, registryLookup);
-        nbt.putInt(NBT_STORED_EXP, this.storedExp);
+    protected void saveAdditional(ValueOutput valueOutput) {
+        super.saveAdditional(valueOutput);
+        ContainerHelper.saveAllItems(valueOutput, this.inventory);
+        valueOutput.putInt(NBT_STORED_EXP, this.storedExp);
     }
 
 }
