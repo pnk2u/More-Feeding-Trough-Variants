@@ -42,7 +42,8 @@
 			"modrinth": "1tqQKQKR",
 			"curseforge": "1079760",
 			"dependencies": [
-				"fabric-api(required)#(ignore)"
+				"fabric-api(required)#(ignore)",
+                "lolmcmv@1.6.0(required)#(modrinth:vDjDgFj7)(curseforge:1058421)"
 			]
 		}
 	}
