@@ -1,12 +1,12 @@
 {
-  "required": true ,
-  "package": "de.pnku.mcmvaft.mixin" ,
-  "compatibilityLevel": "JAVA_21" ,
+  "required": true,
+  "package": "de.pnku.mcmvaft.mixin",
+  "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "AnimalMixin"
-  ] ,
+    "BlockEntityTypeMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
-  } ,
+  },
   "minVersion": "0.8"
 }
