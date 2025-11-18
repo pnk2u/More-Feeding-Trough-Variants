@@ -7,6 +7,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
@@ -19,18 +20,18 @@ public class McmvaftItemInit {
     public static final Item JUNGLE_FEEDING_TROUGH_ITEM = itemFromBlock(McmvaftBlockInit.JUNGLE_FEEDING_TROUGH_BLOCK);
     public static final Item ACACIA_FEEDING_TROUGH_ITEM = itemFromBlock(McmvaftBlockInit.ACACIA_FEEDING_TROUGH_BLOCK);
     public static final Item DARK_OAK_FEEDING_TROUGH_ITEM = itemFromBlock(McmvaftBlockInit.DARK_OAK_FEEDING_TROUGH_BLOCK);
-    public static final BlockItem PALE_OAK_FEEDING_TROUGH_ITEM = itemFromBlock(McmvaftBlockInit.PALE_OAK_FEEDING_TROUGH_BLOCK);
+    public static final Item PALE_OAK_FEEDING_TROUGH_ITEM = itemFromBlock(McmvaftBlockInit.PALE_OAK_FEEDING_TROUGH_BLOCK);
     public static final Item MANGROVE_FEEDING_TROUGH_ITEM = itemFromBlock(McmvaftBlockInit.MANGROVE_FEEDING_TROUGH_BLOCK);
     public static final Item CHERRY_FEEDING_TROUGH_ITEM = itemFromBlock(McmvaftBlockInit.CHERRY_FEEDING_TROUGH_BLOCK);
     public static final Item BAMBOO_FEEDING_TROUGH_ITEM = itemFromBlock(McmvaftBlockInit.BAMBOO_FEEDING_TROUGH_BLOCK);
     public static final Item CRIMSON_FEEDING_TROUGH_ITEM = itemFromBlock(McmvaftBlockInit.CRIMSON_FEEDING_TROUGH_BLOCK);
     public static final Item WARPED_FEEDING_TROUGH_ITEM = itemFromBlock(McmvaftBlockInit.WARPED_FEEDING_TROUGH_BLOCK);
 
-    public static BlockItem itemFromBlock(MoreFeedingTroughBlock moreFeedingTroughBlock) {
+    public static BlockItem itemFromBlock(Block moreFeedingTroughBlock) {
         return new BlockItem(moreFeedingTroughBlock, setProperties(moreFeedingTroughBlock));
     }
 
-    public static Item.Properties setProperties(MoreFeedingTroughBlock moreFeedingTroughBlock) {
+    public static Item.Properties setProperties(Block moreFeedingTroughBlock) {
         return new Item.Properties()
                 .setId(ResourceKey.create(Registries.ITEM,BuiltInRegistries.BLOCK.getKey(moreFeedingTroughBlock))).useBlockDescriptionPrefix();
     }
