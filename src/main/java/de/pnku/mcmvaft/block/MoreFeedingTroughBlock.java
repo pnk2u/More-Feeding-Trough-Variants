@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
-import slexom.animal_feeding_trough.platform.common.block.FeedingTroughBlock;
+import slexom.animal_feeding_trough.platform.common.world.level.block.FeedingTroughBlock;
 
 public class MoreFeedingTroughBlock extends FeedingTroughBlock {
     public final String feedingTroughWoodType;
