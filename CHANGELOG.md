@@ -1,4 +1,4 @@
-<!--publish=false-->
+<!--publish=true-->
 ## 1.2.0:
 - `1.21.9(10)`: Update to <ins>1.21.10</ins>
 - `1.21.4(5)`, `1.21.6(-8)`: Combine versions into `1.2.4(-8)`
