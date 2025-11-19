@@ -11,7 +11,7 @@ import slexom.animal_feeding_trough.platform.common.AnimalFeedingTroughMod;
 import java.util.ArrayList;
 import java.util.List;
 
-import static de.pnku.mcmvaft.MoreFeedingTroughVariants.asId;
+import static de.pnku.mcmvaft.MoreFeedingTroughVariants.withModId;
 
 public class McmvaftBlockInit {
     public static final Block OAK_FEEDING_TROUGH_BLOCK = new MoreFeedingTroughBlock(MapColor.WOOD, "oak");
@@ -46,7 +46,7 @@ public class McmvaftBlockInit {
     }
 
     private static void registerBlock(Block feedingTroughBlock) {
-        Registry.register(BuiltInRegistries.BLOCK, asId(((MoreFeedingTroughBlock)feedingTroughBlock).feedingTroughWoodType + "_feeding_trough"), feedingTroughBlock);
+        Registry.register(BuiltInRegistries.BLOCK, withModId(((MoreFeedingTroughBlock)feedingTroughBlock).feedingTroughWoodType + "_feeding_trough"), feedingTroughBlock);
         more_feeding_troughs.add(feedingTroughBlock);
         AnimalFeedingTroughMod.FEEDING_TROUGH_BLOCK_ENTITY.get().addSupportedBlock(feedingTroughBlock);
     }
