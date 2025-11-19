@@ -39,7 +39,7 @@ public class McmvaftItemInit {
     }
 
     private static void registerItem(Item feedingTroughitem) {
-        Registry.register(BuiltInRegistries.ITEM, MoreFeedingTroughVariants.asId(((MoreFeedingTroughBlock)((BlockItem) feedingTroughitem).getBlock()).feedingTroughWoodType + "_feeding_trough"), feedingTroughitem);
+        Registry.register(BuiltInRegistries.ITEM, MoreFeedingTroughVariants.withModId(((MoreFeedingTroughBlock)((BlockItem) feedingTroughitem).getBlock()).feedingTroughWoodType + "_feeding_trough"), feedingTroughitem);
 
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(entries -> entries.addAfter(AnimalFeedingTroughMod.FEEDING_TROUGH_BLOCK_ITEM.get(), feedingTroughitem));
     }
