@@ -13,13 +13,13 @@ public class MoreFeedingTroughBlock extends FeedingTroughBlock {
     public final String feedingTroughWoodType;
 
     public MoreFeedingTroughBlock(MapColor colour, String feedingTroughWoodType) {
-        super(BlockBehaviour.Properties.of().mapColor(colour).instrument(NoteBlockInstrument.BASS).strength(0.2f).sound(SoundType.WOOD).ignitedByLava().noOcclusion().setId(ResourceKey.create(Registries.BLOCK, MoreFeedingTroughVariants.asId(feedingTroughWoodType + "_feeding_trough"))));
+        super(BlockBehaviour.Properties.of().mapColor(colour).instrument(NoteBlockInstrument.BASS).strength(0.2f).sound(SoundType.WOOD).ignitedByLava().noOcclusion().setId(ResourceKey.create(Registries.BLOCK, MoreFeedingTroughVariants.withModId(feedingTroughWoodType + "_feeding_trough"))));
         this.feedingTroughWoodType = feedingTroughWoodType;
         this.registerDefaultState(this.stateDefinition.any().setValue(LEVEL, 0));
     }
 
     public MoreFeedingTroughBlock(MapColor colour, SoundType sound, String feedingTroughWoodType) {
-        super(BlockBehaviour.Properties.of().mapColor(colour).instrument(NoteBlockInstrument.BASS).strength(0.2f).sound(sound).ignitedByLava().noOcclusion().setId(ResourceKey.create(Registries.BLOCK, MoreFeedingTroughVariants.asId(feedingTroughWoodType + "_feeding_trough"))));
+        super(BlockBehaviour.Properties.of().mapColor(colour).instrument(NoteBlockInstrument.BASS).strength(0.2f).sound(sound).ignitedByLava().noOcclusion().setId(ResourceKey.create(Registries.BLOCK, MoreFeedingTroughVariants.withModId(feedingTroughWoodType + "_feeding_trough"))));
         this.feedingTroughWoodType = feedingTroughWoodType;
         this.registerDefaultState(this.stateDefinition.any().setValue(LEVEL, 0));
     }
