@@ -57,16 +57,33 @@ Currently available in:
 ### Versions
 <a name="most-recent-version"></a>
 <!--CHANGELOG:START-->
-<a name="1.1.1"></a>
-#### 1.1.1[*](#footnote-*):
-- `1.21.6`: Update to 1.21.6
+<a name="1.2.0"></a>
+### 1.2.0[*](#footnote-*):
+- `1.21.9(10)`: Update to <ins>1.21.10</ins>
+- `1.21.4(5)`, `1.21.6(-8)`: Combine versions into `1.2.4(-8)`
+- `1.21(.1)`, `1.2.4(-8)`:
+  #### ⚠ **Breaking change**:
+> **Empty all _Feeding Trough_ variants before updating.**  
+> Items left inside any _Feeding Trough_ variant on versions < `1.2.0` will be lost after upgrade.
 
-<h2><sub><sub><sup><ins>Download 1.1.1 + 1.21.6(-8)</ins>:</sup>&#x200A;
-<a title="Download (Modrinth):&#10;More Feeding Trough Variants 1.1.1 + 1.21.6(-8)" href="https://modrinth.com/mod/more-feeding-trough-variants/version/Np9JS7Ss">
-<img width=26 src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a>
+**Required actions:**
+- Empty every _Feeding Trough_ variant's inventory.
+- (Potentially necessary\*) Break and re-place existing _Feeding Trough_ variant blocks.
+
+> **Technical summary:**  
+The variants' blocks now use the original _Animal Feeding Trough_'s block entity instead of a separate custom block entity.
+This unification improves cross-version compatibility (e.g. the newly combined version `1.21.4(-8)`), stability, and maintainability.  
+> `1.20.1` versions are unaffected as the Fabric feature\*² allowing this change was only added in `1.21`.
+
+<sup>*: In testing, this was not necessary, but if you encounter issues with existing _Feeding Trough_ blocks after updating, breaking and re-placing them should resolve the issue.</sup>  
+<sup>*²: `FabricBlockEntityType.addSupportedBlock()`</sup> 
+
+<h2><sub><sub><sup><ins>Download 1.2.0 + 1.21.4(-8)</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Feeding Trough Variants 1.2.0 + 1.21.4(-8)" href="https://www.modrinth.com/mod/1tqQKQKR/version/6dycegFo">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
 <sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
-<a title="Download (Curseforge):&#10;More Feeding Trough Variants 1.1.1 + 1.21.6(-8)" href="https://www.curseforge.com/minecraft/mc-mods/more-feeding-trough-variants/files/6689155">
-<img width=26 src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></a>
+<a title="Download (Curseforge):&#10;More Feeding Trough Variants 1.2.0 + 1.21.4(-8)" href="https://www.curseforge.com/minecraft/mc-mods/more-feeding-trough-variants/files/7237493">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
 </sub></sub></h2>
 
 <!--CHANGELOG:END-->
