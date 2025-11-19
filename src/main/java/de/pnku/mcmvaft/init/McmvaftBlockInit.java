@@ -1,12 +1,13 @@
 package de.pnku.mcmvaft.init;
 
 import de.pnku.mcmvaft.block.MoreFeedingTroughBlock;
+import de.pnku.mcmvaft.block.MoreFeedingTroughBlockEntity;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.material.MapColor;
-import slexom.animal_feeding_trough.platform.common.AnimalFeedingTroughMod;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +28,7 @@ public class McmvaftBlockInit {
     public static final Block WARPED_FEEDING_TROUGH_BLOCK = new MoreFeedingTroughBlock(MapColor.WARPED_STEM, SoundType.NETHER_WOOD, "warped");
 
     public static final List<Block> more_feeding_troughs = new ArrayList<>();
+    public static BlockEntityType<MoreFeedingTroughBlockEntity> MORE_FEEDING_TROUGH_BLOCK_ENTITY;
 
 
     public static void registerBlocks() {
@@ -41,11 +43,13 @@ public class McmvaftBlockInit {
         registerBlock(BAMBOO_FEEDING_TROUGH_BLOCK);
         registerBlock(CRIMSON_FEEDING_TROUGH_BLOCK);
         registerBlock(WARPED_FEEDING_TROUGH_BLOCK);
+
+        MORE_FEEDING_TROUGH_BLOCK_ENTITY = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, withModId("variant_feeding_troughs"), BlockEntityType.Builder.of(MoreFeedingTroughBlockEntity::new, McmvaftBlockInit.more_feeding_troughs.toArray(Block[]::new)).build(null));
+
     }
 
     private static void registerBlock(Block feedingTroughBlock) {
         Registry.register(BuiltInRegistries.BLOCK, withModId(((MoreFeedingTroughBlock)feedingTroughBlock).feedingTroughWoodType + "_feeding_trough"), feedingTroughBlock);
         more_feeding_troughs.add(feedingTroughBlock);
-        AnimalFeedingTroughMod.FEEDING_TROUGH_BLOCK_ENTITY.get().addSupportedBlock(feedingTroughBlock);
     }
 }
