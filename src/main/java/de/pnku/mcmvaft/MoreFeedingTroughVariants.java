@@ -25,8 +25,8 @@ public class MoreFeedingTroughVariants implements ModInitializer {
         }
     }
 
-    public static ResourceLocation asId(String path) {
-        return ResourceLocation.fromNamespaceAndPath(MODID, path);
+    public static ResourceLocation withModId(String path) {
+        return ResourceLocation.tryBuild(MODID, path);
     }
 
 }
