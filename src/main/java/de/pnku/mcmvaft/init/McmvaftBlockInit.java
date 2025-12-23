@@ -48,6 +48,11 @@ public class McmvaftBlockInit {
     private static void registerBlock(Block feedingTroughBlock) {
         Registry.register(BuiltInRegistries.BLOCK, withModId(((MoreFeedingTroughBlock)feedingTroughBlock).feedingTroughWoodType + "_feeding_trough"), feedingTroughBlock);
         more_feeding_troughs.add(feedingTroughBlock);
-        AnimalFeedingTroughMod.FEEDING_TROUGH_BLOCK_ENTITY.get().addSupportedBlock(feedingTroughBlock);
+    }
+
+    public static void addSupportedBlocksToBlockEntityType() {
+        for (Block block : more_feeding_troughs) {
+            AnimalFeedingTroughMod.FEEDING_TROUGH_BLOCK_ENTITY.get().addSupportedBlock(block);
+        }
     }
 }
