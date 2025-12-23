@@ -1,4 +1,4 @@
-<!--publish=false-->
+<!--publish=true-->
 ### 1.2.1:
 - `1.21.9(-11)`: Update to <ins>1.21.11</ins>
 - `1.21(.1)`: Fix registration of block entities happening too early on Neoforge¹
