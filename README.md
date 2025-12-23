@@ -57,32 +57,19 @@ Currently available in:
 ### Versions
 <a name="most-recent-version"></a>
 <!--CHANGELOG:START-->
-<a name="1.2.0"></a>
-### 1.2.0[*](#footnote-*):
-- `1.21.9(10)`: Update to <ins>1.21.10</ins>
-- `1.21.4(5)`, `1.21.6(-8)`: Combine versions into `1.2.4(-8)`
-- `1.21(.1)`, `1.2.4(-8)`:
-  #### ⚠ **Breaking change**:
-> **Empty all _Feeding Trough_ variants before updating.**  
-> Items left inside any _Feeding Trough_ variant on versions < `1.2.0` will be lost after upgrade.
+<a name="1.2.1"></a>
+#### 1.2.1[*](#footnote-*):
+- `1.21.9(-11)`: Update to <ins>1.21.11</ins>
+- `1.21(.1)`: Fix registration of block entities happening too early on Neoforge¹
+- Reduce required Fabric Loader version by one minor version (from `>=0.18.0` to `>=0.17.0`)
 
-**Required actions:**
-- Empty every _Feeding Trough_ variant's inventory.
-- (Potentially necessary\*) Break and re-place existing _Feeding Trough_ variant blocks.
+¹<sup>: Not explicitly supported yet, via <ins>Sinytra Connector</ins> (&#x200A;<sub><a title="Sinytra Connector&#10;on Modrinth" href="https://modrinth.com/mod/connector/"><img width=20 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a></sub><!--SEPARATOR_V--><img width=5 height=8 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"><sub><a title="Sinytra Connector&#10;on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/sinytra-connector/"><img width=20 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a></sub>&#x200A;)</sup>
 
-> **Technical summary:**  
-The variants' blocks now use the original _Animal Feeding Trough_'s block entity instead of a separate custom block entity.
-This unification improves cross-version compatibility (e.g. the newly combined version `1.21.4(-8)`), stability, and maintainability.  
-> `1.20.1` versions are unaffected as the Fabric feature\*² allowing this change was only added in `1.21`.
-
-<sup>*: In testing, this was not necessary, but if you encounter issues with existing _Feeding Trough_ blocks after updating, breaking and re-placing them should resolve the issue.</sup>  
-<sup>*²: `FabricBlockEntityType.addSupportedBlock()`</sup> 
-
-<h2><sub><sub><sup><ins>Download 1.2.0 + 1.21.9(10)</ins>:</sup>&#x200A;
-<a title="Download (Modrinth):&#10;More Feeding Trough Variants 1.2.0 + 1.21.9(10)" href="https://www.modrinth.com/mod/1tqQKQKR/version/Jf7Pzftl">
+<h2><sub><sub><sup><ins>Download 1.2.1 + 1.21.9(-11)</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Feeding Trough Variants 1.2.1 + 1.21.9(-11)" href="https://www.modrinth.com/mod/1tqQKQKR/version/KiF2rzRb">
 <img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
 <sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
-<a title="Download (Curseforge):&#10;More Feeding Trough Variants 1.2.0 + 1.21.9(10)" href="https://www.curseforge.com/minecraft/mc-mods/more-feeding-trough-variants/files/7237506">
+<a title="Download (Curseforge):&#10;1.2.1 + 1.21.9(-11) - More Feeding Trough Variants" href="https://www.curseforge.com/minecraft/mc-mods/more-feeding-trough-variants/files/7371158">
 <img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
 </sub></sub></h2>
 
