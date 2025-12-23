@@ -1,7 +1,7 @@
 package de.pnku.mcmvaft.mixin;
 
 import de.pnku.mcmvaft.block.MoreFeedingTroughBlock;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import org.spongepowered.asm.mixin.Mixin;
@@ -18,7 +18,7 @@ public class BlockEntityTypeMixin {
 
     @Inject(method = "isValid", at = @At("HEAD"), cancellable = true)
     private void isValid(BlockState blockState, CallbackInfoReturnable<Boolean> cir) {
-        if (thisfeedingTroughBlockEntityType.builtInRegistryHolder().is(ResourceLocation.tryBuild("animal_feeding_trough", "feeding_trough")) && blockState.getBlock() instanceof MoreFeedingTroughBlock) {
+        if (BlockEntityType.getKey(thisfeedingTroughBlockEntityType).compareTo(Identifier.tryBuild("animal_feeding_trough", "feeding_trough")) == 0 && blockState.getBlock() instanceof MoreFeedingTroughBlock) {
             cir.setReturnValue(true);
         }
     }
