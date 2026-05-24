@@ -14,23 +14,24 @@
       <td><strong>Minecraft</strong></td>
       <td>
         <a href="https://modrinth.com/mod/more-feeding-trough-variants/versions?g=1.20.1"><code>1.20.1</code></a><br>
-        <a href="https://modrinth.com/mod/more-feeding-trough-variants/versions?g=1.21&g=1.21.1"><code>1.21(.1)</code></a>, <a href="https://modrinth.com/mod/more-feeding-trough-variants/versions?g=1.21.4&g=1.21.5&g=1.21.6&g=1.21.7&g=1.21.8&g=1.21.9&g=1.21.10"><code>1.21.4</code>~<code>1.21.10</code></a>
+        <a href="https://modrinth.com/mod/more-feeding-trough-variants/versions?g=1.21&g=1.21.1"><code>1.21(.1)</code></a>, <a href="https://modrinth.com/mod/more-feeding-trough-variants/versions?g=1.21.4&g=1.21.5&g=1.21.6&g=1.21.7&g=1.21.8&g=1.21.9&g=1.21.10&g=1.21.11"><code>1.21.4</code>~<code>1.21.11</code></a><br>
+        <a href="https://modrinth.com/mod/more-feeding-trough-variants/versions?g=26.1&g=26.1.1&g=26.1.2"><code>26.1</code></a>
       </td>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><strong>Mod Loaders</strong></td>
-      <td><sub><img width="16" src="https://raw.githubusercontent.com/FabricMC/fabric/1.21.10/src/main/resources/assets/fabric/icon.png"></sub><a href="https://fabricmc.net/use/installer/"><code>Fabric Loader</code></a></td>
+      <td><sub><img width="16" src="https://raw.githubusercontent.com/FabricMC/fabric/26.1/src/main/resources/assets/fabric/icon.png"></sub><a href="https://fabricmc.net/use/installer/"><code>Fabric Loader</code></a></td>
     </tr>
   </tbody>
   <thead>
     <tr>
       <td><strong>Requires</strong></td>
       <td>
-        <a href="https://modrinth.com/mod/fabric-api"><sub><img width="16" src="https://raw.githubusercontent.com/FabricMC/fabric/1.21.10/src/main/resources/assets/fabric/icon.png"></sub><code>Fabric API</code></a><br>
+        <a href="https://modrinth.com/mod/fabric-api"><sub><img width="16" src="https://raw.githubusercontent.com/FabricMC/fabric/26.1/src/main/resources/assets/fabric/icon.png"></sub><code>Fabric API</code></a><br>
         <a href="https://modrinth.com/mod/more-composter-variants"><sub><img height="16" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-Composter-Variants/pres/logo/logo_c.png"></sub><code>More Composter Variants</code></a><br>
-        <a href="https://modrinth.com/mod/animal_feeding_trough"><sub><img height="16" src="https://raw.githubusercontent.com/Slexom/Animal-Feeding-Trough/1.21.10/common/src/main/resources/assets/animal_feeding_trough/icon.png"></sub><code>Animal Feeding Trough</code></a>
+        <a href="https://modrinth.com/mod/animal_feeding_trough"><sub><img height="16" src="https://raw.githubusercontent.com/Slexom/Animal-Feeding-Trough/26.1.2/common/src/main/resources/assets/animal_feeding_trough/icon.png"></sub><code>Animal Feeding Trough</code></a>
       </td>
     </tr>
   </thead>
@@ -40,10 +41,11 @@
 <a name="translations"></a>
 ### <img height="24" align="left" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/translate.svg"> Translations
 
-Currently available in:
-- English
-- German
-- Chinese Simplified (@[qiuqimc](/../../../../qiuqimc) with [PR #2](../../pull/1), added in [`1.0.4`](./CHANGELOG_history.md#1.0.4)
+|Language|Translator|
+|--|--|
+|English||
+|German||
+|Chinese Simplified|@[qiuqimc](/../../../../qiuqimc) with [PR #2](../../pull/2), added in [`1.0.4`](./CHANGELOG_history.md#1.0.4)|
 
 > [!NOTE]
 > > Want to help translate? If you can, please open a PR to the **default branch** [`1.21(.1)`](../../tree/1.21(.1)).  
