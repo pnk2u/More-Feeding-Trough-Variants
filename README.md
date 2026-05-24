@@ -46,6 +46,7 @@
 |English||
 |German||
 |Chinese Simplified|@[qiuqimc](/../../../../qiuqimc) with [PR #2](../../pull/2), added in [`1.0.4`](./CHANGELOG_history.md#1.0.4)|
+|Japanese|@[HayaKoh-WeldyAlin](/../../../../HayaKoh-WeldyAlin) with [PR #3](../../pull/3), added in [`1.2.2`](./CHANGELOG.md#1.2.2)|
 
 > [!NOTE]
 > > Want to help translate? If you can, please open a PR to the **default branch** [`1.21(.1)`](../../tree/1.21(.1)).  
