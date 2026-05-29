@@ -1,7 +1,7 @@
 <a name="more-feeding-trough-variants"></a>
 # <img height='48' align=right src="./src/main/resources/icon.png"> <p align="center">&emsp;&emsp;&emsp; More Feeding Trough Variants <sub><a title="More Feeding Trough Variants on Modrinth" href="https://www.modrinth.com/mod/more-feeding-trough-variants"><img width="40" src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a></sub> <a title="More Feeding Trough Variants on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/more-feeding-trough-variants"><sub><img width="40" src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></sub></a> </p>
 > <img align=left height="153" src="./src/main/resources/icon.png">  
->  A mod adding wood variants for Slexom's <em>Animal Feeding Trough</em> Block. <br><br><br><br>  
+>  A mod adding wood variants for Slexom's <em><ins>Animal Feeding Trough</ins></em> (&#x200A;<sub><a title="Animal Feeding Trough&#10;on Modrinth" href="https://modrinth.com/mod/animal_feeding_trough/"><img width=20 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a></sub><!--SEPARATOR_V:MR--><img width=5 height=8 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"><sub><a title="Animal Feeding Trough&#10;on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/animal_feeding_trough/"><img width=20 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a></sub>&#x200A;) Block. <br><br><br><br>    
 >  <details><summary><h5>Show in-game example image</h5></summary><br><img src="https://uwu.catgirl.host/i/rjkjx.webp"><sup><br><!--CAPTION:PLACEHOLDER--></sup></details>  
 <br>  
 
