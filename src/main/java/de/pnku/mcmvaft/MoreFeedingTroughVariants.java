@@ -10,8 +10,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class MoreFeedingTroughVariants implements ModInitializer {
-    public static final String MODID = "lolmcmv-aft";
-    public static final Logger LOGGER = LoggerFactory.getLogger(MODID);
+    public static final String MOD_ID = "lolmcmv-aft";
+    public static final String MOD_NAME = "More Feeding Trough Variants";
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_NAME);
 
     @Override
     public void onInitialize() {
@@ -24,7 +25,7 @@ public class MoreFeedingTroughVariants implements ModInitializer {
     }
 
     public static ResourceLocation withModId(String path) {
-        return ResourceLocation.tryBuild(MODID, path);
+        return ResourceLocation.tryBuild(MOD_ID, path);
     }
 
 }
