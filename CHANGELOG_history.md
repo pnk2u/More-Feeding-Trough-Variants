@@ -1,3 +1,15 @@
+<a name="1.2.2"></a>
+### 1.2.2:
+- `26.1`: Update to <ins>26.1</ins>
+- Add Japanese Translation (Thanks to @[HayaKoh-WeldyAlin](https://www.github.com/HayaKoh-WeldyAlin))
+
+<h2><sub><sub><sup><ins>Download 1.2.2 + 1.20.1</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Feeding Trough Variants 1.2.2 + 1.20.1" href="https://www.modrinth.com/mod/1tqQKQKR/version/NmvVJ4kL">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>&#x200A;
+<a title="Download (Curseforge):&#10;1.2.2 + 1.20.1 - More Feeding Trough Variants" href="https://www.curseforge.com/minecraft/mc-mods/more-feeding-trough-variants/files/8165426">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
+</sub></sub></h2>
+
 <a name="1.2.1"></a>
 ### 1.2.1:
 - `1.21.9(-11)`: Update to <ins>1.21.11</ins>
