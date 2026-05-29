@@ -60,19 +60,15 @@
 ### Versions
 <a name="most-recent-version"></a>
 <!--CHANGELOG:START-->
-<a name="1.2.1"></a>
-#### 1.2.1[*](#footnote-*):
-- `1.21.9(-11)`: Update to <ins>1.21.11</ins>
-- `1.21(.1)`: Fix registration of block entities happening too early on Neoforge¹
-- Reduce required Fabric Loader version by one minor version (from `>=0.18.0` to `>=0.17.0`)
+<a name="1.2.2"></a>
+#### 1.2.2[*](#footnote-*):
+- `26.1`: Update to <ins>26.1</ins>
+- Add Japanese Translation (Thanks to @[HayaKoh-WeldyAlin](https://www.github.com/HayaKoh-WeldyAlin))
 
-¹<sup>: Not explicitly supported yet, via <ins>Sinytra Connector</ins> (&#x200A;<sub><a title="Sinytra Connector&#10;on Modrinth" href="https://modrinth.com/mod/connector/"><img width=20 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a></sub><!--SEPARATOR_V--><img width=5 height=8 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"><sub><a title="Sinytra Connector&#10;on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/sinytra-connector/"><img width=20 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a></sub>&#x200A;)</sup>
-
-<h2><sub><sub><sup><ins>Download 1.2.1 + 1.21(.1)</ins>:</sup>&#x200A;
-<a title="Download (Modrinth):&#10;More Feeding Trough Variants 1.2.1 + 1.21(.1)" href="https://www.modrinth.com/mod/1tqQKQKR/version/uHZDgZ2J">
-<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
-<sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
-<a title="Download (Curseforge):&#10;1.2.1 + 1.21(.1) - More Feeding Trough Variants" href="https://www.curseforge.com/minecraft/mc-mods/more-feeding-trough-variants/files/7371106">
+<h2><sub><sub><sup><ins>Download 1.2.2 + 1.21(.1)</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Feeding Trough Variants 1.2.2 + 1.21(.1)" href="https://www.modrinth.com/mod/1tqQKQKR/version/qQCbOfWq">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>&#x200A;
+<a title="Download (Curseforge):&#10;1.2.2 + 1.21(.1) - More Feeding Trough Variants" href="https://www.curseforge.com/minecraft/mc-mods/more-feeding-trough-variants/files/8165446">
 <img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
 </sub></sub></h2>
 
