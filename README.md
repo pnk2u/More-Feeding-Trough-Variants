@@ -1,8 +1,8 @@
 <a name="more-feeding-trough-variants"></a>
 # <img height='48' align=right src="./src/main/resources/icon.png"> <p align="center">&emsp;&emsp;&emsp; More Feeding Trough Variants <sub><a title="More Feeding Trough Variants on Modrinth" href="https://www.modrinth.com/mod/more-feeding-trough-variants"><img width="40" src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a></sub> <a title="More Feeding Trough Variants on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/more-feeding-trough-variants"><sub><img width="40" src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></sub></a> </p>
 > <img align=left height="153" src="./src/main/resources/icon.png">  
->  A mod adding wood variants for Slexom's <em>Animal Feeding Trough</em> Block. <br><br><br><br>  
->  <details><summary><h5>Show in-game example image</h5></summary><br><img src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-Feeding-Trough-Variants/pres/gh__banner.gif"><sup><br><!--CAPTION:PLACEHOLDER--></sup></details>  
+>  A mod adding wood variants for Slexom's <em><ins>Animal Feeding Trough</ins></em> (&#x200A;<sub><a title="Animal Feeding Trough&#10;on Modrinth" href="https://modrinth.com/mod/animal_feeding_trough/"><img width=20 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a></sub><!--SEPARATOR_V:MR--><img width=5 height=8 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"><sub><a title="Animal Feeding Trough&#10;on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/animal_feeding_trough/"><img width=20 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a></sub>&#x200A;) Block. <br><br><br><br>    
+>  <details><summary><h5>Show in-game example image</h5></summary><br><img src="https://uwu.catgirl.host/i/rjkjx.webp"><sup><br><!--CAPTION:PLACEHOLDER--></sup></details>  
 <br>  
 
 <a name="compatibility"></a>
@@ -14,23 +14,24 @@
       <td><strong>Minecraft</strong></td>
       <td>
         <a href="https://modrinth.com/mod/more-feeding-trough-variants/versions?g=1.20.1"><code>1.20.1</code></a><br>
-        <a href="https://modrinth.com/mod/more-feeding-trough-variants/versions?g=1.21&g=1.21.1"><code>1.21(.1)</code></a>, <a href="https://modrinth.com/mod/more-feeding-trough-variants/versions?g=1.21.4&g=1.21.5&g=1.21.6&g=1.21.7&g=1.21.8&g=1.21.9&g=1.21.10"><code>1.21.4</code>~<code>1.21.10</code></a>
+        <a href="https://modrinth.com/mod/more-feeding-trough-variants/versions?g=1.21&g=1.21.1"><code>1.21(.1)</code></a>, <a href="https://modrinth.com/mod/more-feeding-trough-variants/versions?g=1.21.4&g=1.21.5&g=1.21.6&g=1.21.7&g=1.21.8&g=1.21.9&g=1.21.10&g=1.21.11"><code>1.21.4</code>~<code>1.21.11</code></a><br>
+        <a href="https://modrinth.com/mod/more-feeding-trough-variants/versions?g=26.1&g=26.1.1&g=26.1.2"><code>26.1</code></a>
       </td>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><strong>Mod Loaders</strong></td>
-      <td><sub><img width="16" src="https://raw.githubusercontent.com/FabricMC/fabric/1.21.10/src/main/resources/assets/fabric/icon.png"></sub><a href="https://fabricmc.net/use/installer/"><code>Fabric Loader</code></a></td>
+      <td><sub><img width="16" src="https://raw.githubusercontent.com/FabricMC/fabric/26.1/src/main/resources/assets/fabric/icon.png"></sub><a href="https://fabricmc.net/use/installer/"><code>Fabric Loader</code></a></td>
     </tr>
   </tbody>
   <thead>
     <tr>
       <td><strong>Requires</strong></td>
       <td>
-        <a href="https://modrinth.com/mod/fabric-api"><sub><img width="16" src="https://raw.githubusercontent.com/FabricMC/fabric/1.21.10/src/main/resources/assets/fabric/icon.png"></sub><code>Fabric API</code></a><br>
+        <a href="https://modrinth.com/mod/fabric-api"><sub><img width="16" src="https://raw.githubusercontent.com/FabricMC/fabric/26.1/src/main/resources/assets/fabric/icon.png"></sub><code>Fabric API</code></a><br>
         <a href="https://modrinth.com/mod/more-composter-variants"><sub><img height="16" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-Composter-Variants/pres/logo/logo_c.png"></sub><code>More Composter Variants</code></a><br>
-        <a href="https://modrinth.com/mod/animal_feeding_trough"><sub><img height="16" src="https://raw.githubusercontent.com/Slexom/Animal-Feeding-Trough/1.21.10/common/src/main/resources/assets/animal_feeding_trough/icon.png"></sub><code>Animal Feeding Trough</code></a>
+        <a href="https://modrinth.com/mod/animal_feeding_trough"><sub><img height="16" src="https://raw.githubusercontent.com/Slexom/Animal-Feeding-Trough/26.1.2/common/src/main/resources/assets/animal_feeding_trough/icon.png"></sub><code>Animal Feeding Trough</code></a>
       </td>
     </tr>
   </thead>
@@ -40,10 +41,12 @@
 <a name="translations"></a>
 ### <img height="24" align="left" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/translate.svg"> Translations
 
-Currently available in:
-- English
-- German
-- Chinese Simplified (@[qiuqimc](/../../../../qiuqimc) with [PR #2](../../pull/1), added in [`1.0.4`](./CHANGELOG_history.md#1.0.4)
+|Language|Translator|
+|--|--|
+|English||
+|German||
+|Chinese Simplified|@[qiuqimc](/../../../../qiuqimc) with [PR #2](../../pull/2), added in [`1.0.4`](./CHANGELOG_history.md#1.0.4)|
+|Japanese|@[HayaKoh-WeldyAlin](/../../../../HayaKoh-WeldyAlin) with [PR #3](../../pull/3), added in [`1.2.2`](./CHANGELOG.md#1.2.2)|
 
 > [!NOTE]
 > > Want to help translate? If you can, please open a PR to the **default branch** [`1.21(.1)`](../../tree/1.21(.1)).  
@@ -57,16 +60,20 @@ Currently available in:
 ### Versions
 <a name="most-recent-version"></a>
 <!--CHANGELOG:START-->
-<a name="1.1.1"></a>
-#### 1.1.1[*](#footnote-*):
-- `1.21.6`: Update to 1.21.6
+<a name="1.2.1"></a>
+#### 1.2.1[*](#footnote-*):
+- `1.21.9(-11)`: Update to <ins>1.21.11</ins>
+- `1.21(.1)`: Fix registration of block entities happening too early on Neoforge¹
+- Reduce required Fabric Loader version by one minor version (from `>=0.18.0` to `>=0.17.0`)
 
-<h2><sub><sub><sup><ins>Download 1.1.1 + 1.21.6(-8)</ins>:</sup>&#x200A;
-<a title="Download (Modrinth):&#10;More Feeding Trough Variants 1.1.1 + 1.21.6(-8)" href="https://modrinth.com/mod/more-feeding-trough-variants/version/Np9JS7Ss">
-<img width=26 src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a>
+¹<sup>: Not explicitly supported yet, via <ins>Sinytra Connector</ins> (&#x200A;<sub><a title="Sinytra Connector&#10;on Modrinth" href="https://modrinth.com/mod/connector/"><img width=20 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a></sub><!--SEPARATOR_V--><img width=5 height=8 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"><sub><a title="Sinytra Connector&#10;on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/sinytra-connector/"><img width=20 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a></sub>&#x200A;)</sup>
+
+<h2><sub><sub><sup><ins>Download 1.2.1 + 1.21(.1)</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Feeding Trough Variants 1.2.1 + 1.21(.1)" href="https://www.modrinth.com/mod/1tqQKQKR/version/uHZDgZ2J">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
 <sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
-<a title="Download (Curseforge):&#10;More Feeding Trough Variants 1.1.1 + 1.21.6(-8)" href="https://www.curseforge.com/minecraft/mc-mods/more-feeding-trough-variants/files/6689155">
-<img width=26 src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></a>
+<a title="Download (Curseforge):&#10;1.2.1 + 1.21(.1) - More Feeding Trough Variants" href="https://www.curseforge.com/minecraft/mc-mods/more-feeding-trough-variants/files/7371106">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
 </sub></sub></h2>
 
 <!--CHANGELOG:END-->
