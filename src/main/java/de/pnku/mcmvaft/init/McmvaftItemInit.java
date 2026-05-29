@@ -2,7 +2,7 @@ package de.pnku.mcmvaft.init;
 
 import de.pnku.mcmvaft.MoreFeedingTroughVariants;
 import de.pnku.mcmvaft.block.MoreFeedingTroughBlock;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -55,6 +55,6 @@ public class McmvaftItemInit {
     private static void registerItem(Item feedingTroughitem) {
         Registry.register(BuiltInRegistries.ITEM, MoreFeedingTroughVariants.withModId(((MoreFeedingTroughBlock)((BlockItem) feedingTroughitem).getBlock()).feedingTroughWoodType + "_feeding_trough"), feedingTroughitem);
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(entries -> entries.addAfter(AnimalFeedingTroughMod.FEEDING_TROUGH_BLOCK_ITEM.get(), feedingTroughitem));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(entries -> entries.insertAfter(AnimalFeedingTroughMod.FEEDING_TROUGH_BLOCK_ITEM.get(), feedingTroughitem));
     }
 }

@@ -52,7 +52,7 @@ public class McmvaftBlockInit {
 
     public static void addSupportedBlocksToBlockEntityType() {
         for (Block block : more_feeding_troughs) {
-            AnimalFeedingTroughMod.FEEDING_TROUGH_BLOCK_ENTITY.get().addSupportedBlock(block);
+            AnimalFeedingTroughMod.FEEDING_TROUGH_BLOCK_ENTITY.get().addValidBlock(block);
         }
     }
 }
